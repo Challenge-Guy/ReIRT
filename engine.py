@@ -1,9 +1,9 @@
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 # Copyright (c) Institute of Information Processing, Leibniz University Hannover.
 
-"""
+"""""
 Train and eval functions used in main.py
-"""
+"""""
 import math
 import sys
 from typing import Iterable
