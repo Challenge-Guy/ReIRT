@@ -11,7 +11,7 @@ from util.misc import (NestedTensor, nested_tensor_from_tensor_list,
 from .backbone import build_backbone
 from .matcher import build_matcher
 from .transformer import build_transformer
-
+   
 class RelTR(nn.Module):
     """ RelTR: Relation Transformer for Scene Graph Generation """
     def __init__(self, backbone, transformer, num_classes, num_rel_classes, num_entities, num_triplets, aux_loss=False, matcher=None):
