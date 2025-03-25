@@ -31,7 +31,7 @@ class HungarianMatcher(nn.Module):
     @torch.no_grad()
     def forward(self, outputs, targets):
         """ Performs the matching
-
+  
         Params:
             outputs: This is a dict that contains at least these entries:
                  "pred_logits": Tensor of dim [batch_size, num_entities, num_entity_classes] with the entity classification logits
